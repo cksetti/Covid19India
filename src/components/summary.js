@@ -34,7 +34,7 @@ function Summary(props) {
   return (
     <div className="Summary">
       <div className="header fadeInUp" style={{animationDelay: '0.5s'}}>
-        <h1>India COVID-19 Tracker</h1>
+        <h1>Humans of India COVID-19 Tracker</h1>
       </div>
 
       <Minigraph timeseries={timeseries} animate={false} />
@@ -45,12 +45,12 @@ function Summary(props) {
         <div className="summary-bottom-left">
           <img
             src="icon.png"
-            alt="https://www.covid19india.org | Coronavirus cases live dashboard"
+            alt="http://Humans.in | India Coronavirus cases live dashboard"
           />
           <h5>We stand with everyone fighting on the frontlines</h5>
         </div>
         <div className="link">
-          <a href="https://github.com/covid19india">covid19india.org</a>
+          <a href="/">humans.in</a>
         </div>
       </div>
     </div>
