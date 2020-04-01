@@ -532,6 +532,10 @@ abbr {
   color: $gray-mid;
 }
 
+.github-fork-ribbon-wrapper right {
+	display:none;
+}
+
 table {
   position: relative;
   width: 30rem;

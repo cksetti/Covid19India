@@ -48,7 +48,7 @@ function App() {
       animationDelayForNavbar: 0.5,
     },
 	{
-      pageLink: '/pmcarefund',
+      pageLink: '/pmcarefunds',
       view: Pmcarefunds,
       displayName: 'Donate',
       animationDelayForNavbar: 0.5,
@@ -94,7 +94,7 @@ function App() {
         />
         <h5>We stand with everyone fighting on the frontlines</h5>
         <div className="link">
-          <a href="https://github.com/covid19india">covid19india</a>
+          <a href="/">covid19india</a>
         </div>
         <div id="footerButtons">
           <a
