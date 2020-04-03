@@ -1,11 +1,11 @@
 import React from 'react';
 
-function Cluster(props) {
+function blog(props) {
   return (
     <div className="iframe-container" referrerPolicy="no-referrer" width="100%">
-      <iframe title="clusters" src="https://cluster.covid19india.org"></iframe>
+      <iframe title="clusters" src="https://www.thehumansofindia.com/"></iframe>
     </div>
   );
 }
 
-export default Cluster;
+export default blog;
