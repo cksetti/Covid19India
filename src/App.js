@@ -32,8 +32,8 @@ function App() {
       view: PatientDB,
       displayName: 'Patients DB',
       animationDelayForNavbar: 0.3,
-    },*/
     },
+
     {
       pageLink: '/clusters',
       view: Cluster,
