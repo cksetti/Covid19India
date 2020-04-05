@@ -6,12 +6,11 @@ import {
   Redirect,
 } from 'react-router-dom';
 import * as Icon from 'react-feather';
-
 import './App.scss';
-
 import Home from './components/home';
 import Navbar from './components/navbar';
 import Links from './components/links';
+import Cluster from './components/cluster';
 /*import Cluster from './components/cluster';*/
 import FAQ from './components/faq';
 import Banner from './components/banner';
@@ -19,9 +18,7 @@ import Blog from './components/blog';
 import Pmcarefunds from './components/pmcarefunds';
 
 /* import PatientDB from './components/patientdb';*/
-
 const history = require('history').createBrowserHistory;
-
 function App() {
   const pages = [
     {
@@ -35,6 +32,7 @@ function App() {
       view: PatientDB,
       displayName: 'Patients DB',
       animationDelayForNavbar: 0.3,
+    },*/
     },
     {
       pageLink: '/clusters',
@@ -67,7 +65,6 @@ function App() {
       animationDelayForNavbar: 0.6,
     },
   ];
-
   return (
     <div className="App">
       <Router history={history}>
@@ -93,19 +90,35 @@ function App() {
           )}
         />
       </Router>
-
       <footer className="fadeInUp" style={{animationDelay: '2s'}}>
         <img
           src="/icon.png"
           alt="https://www.Humans.in | Coronavirus cases live dashboard"
         />
-        <h5>#StayHome #StaySafe</h5>
+        <h5>We stand with everyone fighting on the frontlines</h5>
         <div className="link">
-          <a href="/">Humans of India Covid19 Tracker</a>
+          <a href="/">covid19india</a>
+        </div>
+        <div id="footerButtons">
+          <a
+            className="button"
+            href="https://bit.ly/patientdb"
+            target="_noblank"
+          >
+            <Icon.Database />
+            <span>Crowdsourced Patient Database&nbsp;</span>
+          </a>
+          <a
+            href="https://bit.ly/covid19crowd"
+            className="button telegram"
+            target="_noblank"
+          >
+            <Icon.MessageCircle />
+            <span>Join Telegram to Collaborate!</span>
+          </a>
         </div>
       </footer>
     </div>
   );
 }
-
 export default App;
