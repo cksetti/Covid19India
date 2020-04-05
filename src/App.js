@@ -112,6 +112,14 @@ function App() {
             <Icon.Database />
             <span>Crowdsourced Patient Database&nbsp;</span>
           </a>
+		  <a
+            href="https://bit.ly/covid19crowd"
+            className="button telegram"
+            target="_noblank"
+          >
+            <Icon.MessageCircle />
+            <span>Join Telegram to Collaborate!</span>
+          </a>
         </div>
       </footer>
     </div>
