@@ -103,16 +103,6 @@ function App() {
         <div className="link">
           <a href="/">Humans of India Covid19 Tracker</a>
         </div>
-        <div id="footerButtons">
-          <a
-            className="button"
-            href="https://bit.ly/patientdb"
-            target="_noblank"
-          >
-            <Icon.Database />
-            <span>Crowdsourced Patient Database&nbsp;</span>
-          </a>
-        </div>
       </footer>
     </div>
   );
